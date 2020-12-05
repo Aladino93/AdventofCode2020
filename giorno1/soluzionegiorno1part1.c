@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include <stdlib.h>
 int main(){
 int dati[]={
 1597,
@@ -225,5 +226,6 @@ for (i=0;i<200;i++){
 }
 risultato=dati[indici[0]]*dati[indici[1]];
 printf("%d",risultato);
+system("pause");
 return 0;
 }
