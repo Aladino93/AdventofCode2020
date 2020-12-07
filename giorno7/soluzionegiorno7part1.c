@@ -127,7 +127,7 @@ for(f=0;f<595;f++){
                         if(strcmp(stringa_appoggio2,stringa_appoggio)==0){
                             
                             posizioni[indice_scrittura][indice_posizioni]=i;
-                            printf("%d ",posizioni[indice_scrittura][indice_posizioni]);
+                            //printf("%d ",posizioni[indice_scrittura][indice_posizioni]);
                             non_ha_padri=1;
                             indice_posizioni++;
                             
@@ -139,9 +139,9 @@ for(f=0;f<595;f++){
             }
         if(non_ha_padri==0){
                         posizioni[indice_scrittura][0]=999;
-                        printf("999 ");
+                       // printf("999 ");
                     }
-       printf("\n"); 
+       //printf("\n"); 
         non_ha_padri=0;
         indice_scrittura++;            
         indice_posizioni=0;
