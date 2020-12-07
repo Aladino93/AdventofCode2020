@@ -53,11 +53,7 @@ int main(){
             
             indice_lista_risposte=0;
             numero_persone=0;
-        }                              
-           
-        
-        
-    
+        }                               
     }
     printf("%d\n",risposte_positive);
     system("pause");
