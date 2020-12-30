@@ -95,12 +95,12 @@ int main()
         if(strcmp("shiny gold          ",stringa_appoggio)==0)
         {
             posizioni[0][indice_posizioni]=i;
-            printf("%d ",posizioni[0][indice_posizioni]);
+            //printf("%d ",posizioni[0][indice_posizioni]);
             indice_posizioni++;
         }
         }
     }
-printf("\n");
+//printf("\n");
 // creazione albero
 
 
@@ -108,8 +108,8 @@ for(f=0;f<595;f++){
     for(b=0;b<595;b++){
         
         if(!(posizioni[f][b]==NULL || controllo_ricorrenza[posizioni[f][b]]==1|| posizioni[f][b]==999)){
-            if(posizioni[f][b]==999)printf("dio mio\n");
-            printf("%d\n",posizioni[f][b]);
+            //if(posizioni[f][b]==999)printf("dio mio\n");
+            //printf("%d\n",posizioni[f][b]);
 
 
             controllo_ricorrenza[posizioni[f][b]]=1;
@@ -163,19 +163,8 @@ for(i=0;i<595;i++){
 printf("\n la soluzione :%d\n",soluzione-1);
  
    
-    
+    system("pause");
     return 0;
 
 }
-    
-
-   
-
-   
-
-
-
-
-
-
 
